@@ -1,36 +1,23 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<title>Login</title>
+	</head>
 <body>
-<form action=~/h/slog_users.php>
-	<p>Username:
-		<input type="text" name="username" required="required" size=15 />
-	</p>
-	<p>Password:
-		<input type="password" name="password" required="required" size=15 />
-	<p>How are you today?</p>
-	<textarea name="feelings" col=20 rows=5></textarea>
-
-	<p>If you could kill someone, and get away with it without any consequences, would you?<p>
-		<br />
-	<input type="radio" name="answer" value=yes />Yes
-	<input type="radio" name="answer" value="no" />No
-
-	<p>There is a train headed towards five people tied to a track <br /> 
-	   In front of you, and next to the tracks, there is an extremely large man. <br />
-	   Through some quick calculations you realise that pushing this man onto the tracks will stop the train, and end his life, <br \> 
-	   but this will also save the five people on the tracks. You have to decide now, Do you push him?<p>
-		<br />
-	<input type="checkbox" name="answer" value="yes" />Yes
-	<input type="checkbox" name="answer" value="no" />No
-	<p>What is the make of your car?</p>
 	<select name="MakeOfCar">
 	<option value="nissan">Nissan</option>
 	<option value="GMC">GMC</option>
 	<option value="Honda">Honda</option>
 	<option value="Ford">Ford</option>
 	<option value="Kia">Kia</option>
-	<option value="Chryslar">Chryslar</option>
-<input type="submit" value="Submit"> </p>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+ <textarea class="form-control" rows="3">Say what you need</textarea>
+  <button type="submit" class="btn btn-default">Submit</button>
 </form>
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLgA5dxCUfa5gALuLMQKfoKZSJuRlML00o" frameborder="0" allowfullscreen></iframe>
